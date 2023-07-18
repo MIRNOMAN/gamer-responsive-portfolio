@@ -12,7 +12,6 @@ body{
 .common-paragraph{
     color: #534C64;
     font-size: 14px;
-    font-weight: 600;
     font-weight: 500;
 }
 .btn-primary1{
@@ -188,6 +187,51 @@ margin-top: 15px;
     margin-top: 10px;
     text-align: right;
 }
+
+/* online section style */
+.online-section{
+  text-align: center;
+  margin-top: 80px;
+}
+.title{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.online-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 150px;
+    position: relative;
+}
+.card > img{
+    width: 220px;
+    height: 300px;
+}
+.card-icon{
+    position:absolute;
+    top: 110px;
+    color: white;
+    right: 320px;
+}
+.fa-circle-play, .card-icon-des{
+   color: red;
+   cursor: pointer;
+}
+
+.card:hover{
+    border-radius: 10px;
+    box-shadow: 5px 10px #bdb7b7;
+}
+
+
+
+
+
+
+
+
 
 
 
