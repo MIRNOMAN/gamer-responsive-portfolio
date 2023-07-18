@@ -9,11 +9,30 @@ body{
 .common-color{
     color: #FF42A5;
 }
+.common-paragraph{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-primary1{
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+
+}
+.btn-primary2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+}
 /* nev bar style */
 .nav-container{
     max-width: 1400px;
     height: 100px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
  align-items: center;
@@ -25,8 +44,9 @@ body{
    /* text-align: center; */
 }
 .logo-section img{
-    height: 40px;
+    height: 30px;
     width: 60px;
+    margin-top: 10px;
     
 }
 .logo{
@@ -79,4 +99,92 @@ body{
 }
 .fa-tiktok{
     color: #3C354F;
+}
+
+/* cover section start */
+.cover-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 150px;
+}
+.cover-text{
+   padding-left: 150px;
+   
+}
+.cover-picture{
+    width: 50%;
+
+}
+.cover-picture img{
+    height: 500px
+
+}
+.cover-states{
+ color: #0B0223;
+font-size: 1.5rem;
+font-weight: 600;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.cover-title{
+font-size: 3.5rem;
+font-weight: 800;
+text-transform: uppercase;
+color:  #8758F1;
+margin-bottom: 15px;
+margin-top: 15px;
+
+}
+.cover-button{
+    margin-top: 15px;
+  
+}
+
+
+
+
+
+
+
+
+
+/* samll device */
+@media screen and (max-width: 576px) {
+    .nav-container {
+       flex-direction: column;
+       padding: 0px;
+      }
+      .logo-section {
+   margin-top: 30px;
+      }
+      .menu-bar-section ul {
+        flex-direction: column;
+      }
+      .menu-icon {
+        margin: 0;
+        padding: 40px 0px;
+      }
+
+}
+
+
+
+/* medium device  */
+
+@media screen and (min-width: 577px) and (max-width: 972px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 0px;
+       }
+       .logo-section {
+    margin-top: 30px;
+       }
+       .menu-bar-section ul {
+         flex-direction: column;
+       }
+       .menu-icon {
+         margin: 0;
+         padding: 40px 0px;
+       }
 }
