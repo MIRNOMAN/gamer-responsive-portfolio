@@ -165,7 +165,22 @@ margin-top: 15px;
         margin: 0;
         padding: 40px 0px;
       }
-
+      .cover-section {
+        flex-direction: column;
+      }
+      .coveer-picture{
+        width: 60%;
+      }
+      .cover-picture img{
+       height: 40%;
+      }     
+      .cover-text{
+        margin-top: 200px;
+      }
+      .cover-button{
+        margin-bottom: 30px;
+      
+    }
 }
 
 
@@ -176,9 +191,10 @@ margin-top: 15px;
     .nav-container {
         flex-direction: column;
         padding: 0px;
+        margin-top: 30px;
        }
        .logo-section {
-    margin-top: 30px;
+        margin-top: 30px;
        }
        .menu-bar-section ul {
          flex-direction: column;
@@ -187,4 +203,20 @@ margin-top: 15px;
          margin: 0;
          padding: 40px 0px;
        }
+       .cover-section {
+        flex-direction: column;
+      }
+       .coveer-picture{
+        width: 90%;
+      }
+      .cover-picture img{
+       height: 60%;
+      }     
+      .cover-text{
+        margin-top: 200px;
+      }
+      .cover-button{
+        margin-bottom: 30px;
+      
+    }
 }
