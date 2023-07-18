@@ -12,6 +12,7 @@ body{
 .common-paragraph{
     color: #534C64;
     font-size: 14px;
+    font-weight: 600;
     font-weight: 500;
 }
 .btn-primary1{
@@ -19,6 +20,7 @@ body{
     background: #FF42A5;
     padding: 10px 20px;
     color: white;
+    font-weight: 600;
     border: 0;
 
 }
@@ -28,6 +30,7 @@ body{
     padding: 10px 20px;
     color: white;
     border: 0;
+    font-weight: 600;
 }
 /* nev bar style */
 .nav-container{
@@ -142,6 +145,49 @@ margin-top: 15px;
 }
 
 
+/* We are gamer section style */
+
+.gamer-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ padding: 20px 150px;
+}
+.gamer-picture{
+   
+}
+.gamer-picture img{
+    width: 80%;
+}
+.gamer-description{
+
+}
+.gamer-title{
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FF42A5;
+}
+.gamer-des{
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gamer-btn{
+   float: right;
+
+}
+.end-description{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: right;
+}
 
 
 
@@ -181,6 +227,25 @@ margin-top: 15px;
         margin-bottom: 30px;
       
     }
+    .gamer-section {
+        flex-direction: column;
+        padding: 5px;
+        margin-top: 0px;
+      }
+      .gamer-picture img {
+        width: 400px; 
+        height: 300px;
+    }
+    .gamer-description, .end-description {
+        text-align: center;
+    }
+    .gamer-title, .gamer-des{
+        text-align: center;
+      }
+      .gamer-btn{
+        float: none;
+      }
+      
 }
 
 
@@ -219,4 +284,8 @@ margin-top: 15px;
         margin-bottom: 30px;
       
     }
+    .gamer-section {
+        padding: 40px;
+      
+      }
 }
